@@ -12,6 +12,7 @@ PCB will eventually be available for purchase.
 * Slightly reduced stagger on row 4, allowing for additional key after right shift
 * 128x32 OLED Display, configurable in code, by default displays logo
 * QMK Firmware with VIA support
+* OLED Modes: triple press ESC in quick succession to switch between logo and stats mode.
 
 ## Parts
 
@@ -24,6 +25,7 @@ PCB will eventually be available for purchase.
 | Keycaps | 70 | MX compatible keycaps |
 | Stabalisers | 4 | PCB screw mounted stabalisers |
 | LED Diodes | 14 | SK6812 MINI-E |
+
 ## Optional Parts
 
 | Part | Quantity     | Description                |
@@ -36,20 +38,27 @@ PCB will eventually be available for purchase.
 
 ## Build Guide
 
-1. Place the board upside down, this is the side without the trees.
-2. Start by placing down each of the Kailh MX sockets, pressing them into the switch holes.
+Guide images shown below build instructions.
+
+1. Place the board upside down, this is the side without the graphics on the PCB
+2. Start by placing down each of the Kailh MX sockets. (Purple on Guide Images)
    - Solder each of the legs of the Kailh sockets to the PCB
 3. Next is to place each of the diodes down, a pair of tweezers can help here with holding them in place.
-   - Ensure orientation is correct when placing down, see images included.
-4. Next is to solder down the SK6812 MINI-E diodes if your choosing to add LED's, see images included.
+   - Ensure orientation is correct when placing down, (Red on Guide Images, notice orientation marking in red)
+4. Next is to solder down the SK6812 MINI-E diodes if your choosing to add LED's (Green on guide images, yellow circle indicates ground)
 5. Turn the PCB over.
-6. It's recommended to flash your controller with firmware beforehand especially if not using hot swappable pins on your controller, once soldered it can be harder to put the controller into boot mode, depending on the microcontroller (some have contacts for boot on the rear)
-7. Place down the PCB face down, depending on your mounting method it'll differ sligthly.
+6. Install the stabalisers (Top left, circled in white show screw placement)
+7. It's recommended to flash your controller with firmware beforehand especially if not using hot swappable pins on your controller, once soldered it can be harder to put the controller into boot mode, depending on the microcontroller (some have contacts for boot on the rear)
+8. Place down the PCB face down, depending on your mounting method it'll differ sligthly.
    - Solder pins to the controller and then turn the main PCB over and solder the controller onto the PCB.
-8. If opting to use an OLED Display, this will sit on top of the micro controller, turn the PCB onto it's rear and solder the OLED display legs to the PCB.
-9. Power the PCB and make sure it all works, by default if you've installed the OLED and LED's they should both light up.
+9. If opting to use an OLED Display, this will sit on top of the micro controller, turn the PCB onto it's rear and solder the OLED display legs to the PCB. (Lower left corner, circled in white on guide images)
+10. Power the PCB and make sure it all works, by default if you've installed the OLED and LED's they should both light up.
 
 That's it for the PCB assembly, everything from here is optional, i've provided 3d models and cutouts for the top plate and base plate.
 If not using a top plate (not advisable), then you can continue to insert your switches.
 
+![Guide Images](https://github.com/gzowski/somei70/blob/main/images/guideimages.jpg)
+
 ## Default Key Layout
+
+
