@@ -3,6 +3,8 @@
 70 key keyboard with alternative layout similar to that of split keyboards.
 ![Somei70](https://github.com/gzowski/somei70/blob/main/images/pcb.jpg)
 
+More photos can be found on my own site: https://www.gzowski.co.uk
+
 PCB will eventually be available for purchase.
 
 ## Features
