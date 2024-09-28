@@ -61,4 +61,6 @@ If not using a top plate (not advisable), then you can continue to insert your s
 
 ## Default Key Layout
 
+To switch layer hold down MO(1), to the right of Right Alt
 
+![Layout](https://github.com/gzowski/somei70/blob/main/images/layout.jpg)
