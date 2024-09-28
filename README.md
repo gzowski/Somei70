@@ -1,4 +1,4 @@
-# Somei70
+# Somei70 - 70 Key mechanical keyboard
 
 70 key keyboard with alternative layout similar to that of split keyboards.
 ![Somei70](https://github.com/gzowski/somei70/blob/main/images/pcb.jpg)
